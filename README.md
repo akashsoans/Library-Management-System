@@ -309,7 +309,7 @@ CALL add_return_records('RS138', 'IS135');
 CALL add_return_records('RS148', 'IS140');
 ```
 
-**Task 15: Branch Performance Report:
+**Task 15: Branch Performance Report**
 Create a query that generates a performance report for each branch, showing the number of books issued, the number of books returned, and the total revenue generated from book rentals.
 
 ```sql
@@ -358,7 +358,7 @@ ON e.branch_id = br.branch_id
 GROUP BY e.emp_name, br.branch_id
 ```
 
-**Task 18: Stored Procedure Objective: 
+**Task 18: Stored Procedure Objective:**
 Create a stored procedure to manage the status of books in a library system.
 
 Description: 
